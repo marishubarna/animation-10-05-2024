@@ -13,12 +13,7 @@ justify-content: center;
 animation: zoom  2s ease-in-out;
 }
 
-h2{
-    font-size: 70px;
-    font-family: "Oswald", sans-serif;
-    color: black;
-    text-align: center;
-}
+
 
 @keyframes zoom {
     0%   {font-size: 0px; }
@@ -43,24 +38,33 @@ h2{
 }
 
 h2{
-    font-size: 70px;
+    font-size: 50px;
     font-family: "Oswald", sans-serif;
     color: black;
-    height: 120px;
-    background-color: #59D5E0;
-    width: 300px;
+   margin: 0;
 }
 
-.hover-square-second-animation{
-   display: flex;
-   justify-content: center;
+.display-hover-animation{
+    display: flex;
+    justify-content: center;
+    margin: 100px 0px 100px 0px;
+}
+
+.hover-animation{
+    background-color: #59D5E0;
+    height: 120px;
    animation: scrol 2s ease-in;
+   padding: 10px;
 }
 
 @keyframes scrol {
     0%   {width: 0; }
     10% {width: 100px;}
-    100% {width: 500px;}
+    30% {width: 200px;}
+    50% {width: 300px;}
+    70% {width: 200px;}
+    90% {width: 100px;}
+    100% {width: 0px;}
   }
 
 .up-button{
